@@ -1,6 +1,9 @@
 # SCIM Mock Server
 
-A lightweight SCIM-compliant mock server built with Node.js, Express, and PowerShell. You can use it to simulate `/scim/v2/Users` and `/ServiceProviderConfig` endpoints for local testing.
+A lightweight SCIM-compliant mock server built with Node.js, Express, and PowerShell. You can use it to simulate `/scim/v2/Users` and `/ServiceProviderConfig` endpoints for local testing. This is compatible with:
+
+- PowerShell scripts.
+- Any SCIM 2.0-compatible client.
 
 ## 🔧 Features
 - Create SCIM users via POST `/scim/v2/Users`.
@@ -16,8 +19,3 @@ cd scim-mock-server
 npm install
 npm start
 
-
-## Compatible With
-
-- PowerShell scripts.
-- Any SCIM 2.0-compatible client.
