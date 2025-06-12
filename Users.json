@@ -1,0 +1,16 @@
+[
+  {
+    "userName": "jdoe",
+    "givenName": "John",
+    "familyName": "Doe",
+    "email": "jdoe@example.com",
+    "groups": ["Engineering"]
+  },
+  {
+    "userName": "asmith",
+    "givenName": "Alice",
+    "familyName": "Smith",
+    "email": "asmith@example.com",
+    "groups": ["Marketing"]
+  }
+]
